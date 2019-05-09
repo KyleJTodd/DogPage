@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/assets/style.css">
+  <title>Dog Page</title>
+</head>
+
+<body>
+  <header class='container-fluid'>
+    <h1 class="text-center">Doggie Pet Pet</h1>
+  </header>
+  <main class="container-fluid">
+    <div class="row">
+      <img id="dogImg" img src="/assets/sadDog2.jpg"></img>
+      <div class="col">
+        <div class="row">
+          <div class="col-6">
+            <h2>Name:</h2>
+            <h2>Mood:</h2>
+            <h2>Times Petted:</h2>
+          </div>
+          <div class="col-6">
+            <h2 id="dogName">Bastion</h2>
+            <h2 id="mood">Sad</h2>
+            <h2 id="pets">0</h2>
+          </div>
+
+        </div>
+        <div class="row">
+          <button id='pet-button' class="btn btn-success" onclick="pet()">Pet!</button>
+          <button class="button btn btn-info" onclick="badDog()">Bad Dog!</button>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <script src="app.js"></script>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
